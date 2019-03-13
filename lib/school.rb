@@ -19,6 +19,6 @@ class School
   end
   
   def grade(10)
-    
+    roste
   
 end
