@@ -18,4 +18,6 @@ class School
     end
   end
   
+  def grade(10)
+  
 end
