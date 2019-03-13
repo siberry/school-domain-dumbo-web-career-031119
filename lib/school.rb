@@ -25,7 +25,7 @@ class School
   
   def sort
     @roster.map do |grade,student_array|
-      grade student_array.sort
+      @roster[grade] = student_array.sort
       binding.pry
     end
   end
