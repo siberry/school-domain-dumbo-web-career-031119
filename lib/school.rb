@@ -1,5 +1,6 @@
 # code here!
 require 'pry'
+
 class School
   attr_accessor :roster
   attr_reader :grade
@@ -23,7 +24,7 @@ class School
   end
   
   def sort
-    
+    binding.pry
   end
   
 end
