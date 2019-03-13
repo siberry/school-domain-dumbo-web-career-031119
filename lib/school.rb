@@ -15,7 +15,7 @@ class School
     else
       @roster[grade] = [name]
     end
-    @grade = @roster[grade]
+    p @roster[grade]
   end
   
   
