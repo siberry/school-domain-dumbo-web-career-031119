@@ -18,5 +18,6 @@ class School
     p @roster[grade]
   end
   
+  add_student("Zach", 10)
   
 end
